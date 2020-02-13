@@ -1,0 +1,7 @@
+Rest API: call our API many more times than we want to and get more information than needed
+
+GraphQL:
+Query specific and nested information without having to call server more than one time (build on normal HTTP protocol)
+
+Can do error handling inside GraphQL
+
