@@ -5,3 +5,7 @@ Query specific and nested information without having to call server more than on
 
 Can do error handling inside GraphQL
 
+Full-Stack Apollo GraphQL with React and Node:
+- creates a graph for your application and allows you to build an API to connect to it, providing access to the data your app needs through a single graphql endpoint
+- developers think about what data queries will be made on the client side, and provide the code on the back end that will return exactly the data the client needs, no more no less
+- client requests will hit a signle endpoint
