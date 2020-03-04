@@ -1,0 +1,27 @@
+query{
+    search(query: "mision org: Lambda-School-Labs", type: REPOSITORY, first: 100) {
+        edges{
+            node{
+                ... on Repository{
+                    name
+                    isFork
+                }
+            }
+        }
+    }
+}
+
+Authorization: token/bearer 'authenticated token'
+
+query{
+    search(query: "user:jiangeyre", type: REPOSITORY, first: 100){
+        edges{
+            node{
+                ... on Repository{
+                    name
+                    isFork
+                }
+            }
+        }
+    }
+}
